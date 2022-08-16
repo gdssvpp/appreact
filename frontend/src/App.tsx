@@ -1,7 +1,13 @@
+import NotificationButton from "./components/NotificationButton";
+
+
 function App() {
-    return(
+  return (
+    <>
       <h1>Olá Rapaziada</h1>
-    )
+      <NotificationButton />
+    </>
+  );
 }
 
-export default App
+export default App;
