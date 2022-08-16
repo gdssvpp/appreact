@@ -10,9 +10,7 @@ function Header() {
           <h1>Controle de Vendas</h1>
           <p>
             Desenvolvido por 
-             <a href=" https://www.instagram.com/pablunogueira/">
-               @pablunogueira
-            </a>
+             <a href="https://www.instagram.com/pablunogueira/"> @pablunogueira</a>
           </p>
         </div>
       </header>
