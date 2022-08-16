@@ -72,6 +72,17 @@
   display: none;
 }
 
+#filtro {
+  margin-left: 70%;
+  height: 30px;
+  background-color: #1b2531;
+  border: 1px solid #384459;
+  border-radius: 5px;
+  color: #9aaabe;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
 @media (min-width: 576px) {
   .show576 {
     display: table-cell;

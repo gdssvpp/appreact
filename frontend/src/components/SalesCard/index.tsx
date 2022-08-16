@@ -9,6 +9,9 @@ import { Sale } from "../../models/sale";
 
 
 function SalesCard() {
+  
+  
+
   const min = new Date(new Date().setDate(new Date().getDate() - 365));
   const max = new Date();
 
@@ -16,7 +19,10 @@ function SalesCard() {
   const [maxDate, setMaxDate] = useState(max);
 
   const [sales, setSales] = useState<Sale[]>([]);
-
+  const [busca, setBusca] = useState('');
+  const lowerBusca = busca.toLowerCase();
+  const vendedoresFiltrados = sales.filter((sales) => sales.sellerName.toLowerCase().includes(lowerBusca));
+ 
   useEffect(() => {
 
     const dmin = minDate.toISOString().slice(0, 10);
@@ -50,6 +56,7 @@ function SalesCard() {
                 dateFormat="dd/MM/yyyy"
               />
             </div>
+            <input type="text" id="filtro" placeholder="Pesquisa..." value={busca} onChange={(ev) => setBusca(ev.target.value)} />
           </div>
 
           <div>
@@ -66,7 +73,7 @@ function SalesCard() {
                 </tr>
               </thead>
               <tbody>
-                {sales.map((sale) => {
+                {vendedoresFiltrados.map((sale) => {
                   return (
                     <tr key={sale.id}>
                       <td className="show992">{sale.id}</td>
