@@ -34,7 +34,7 @@ O ENVIO DE SMS PARA UM NOVO NÚMERO AINDA NÃO ESTÁ FUNCIONANDO, CASO EU ADICIO
 
 (Porém, já vou deixar escrito um passo-a-passo aqui pra facilitar futuramente.)
 
-(Os SMSs em questão estão cadastrados para serem enviados para o meu celular. Caso você queira que seja enviado para o seu, tenha o Spring Tool Suite e coloque as Variáveis de Ambientes conforme criado na sua conta da [Twilio](https://www.twilio.com/pt-br/). Você precisará clonar o repositório, após isso setar as Variáveis conforme o Arquivo *application.properties* dentro do repositório, que são elas: ${TWILIO_SID}, ${TWILIO_KEY}, ${TWILIO_PHONE_FROM} e ${TWILIO_PHONE_TO}.
+(Os SMSs em questão estão cadastrados para serem enviados para o meu celular. Caso você queira que seja enviado para o seu, tenha o Spring Tool Suite e coloque as Variáveis de Ambientes conforme criado na sua conta da [Twilio](https://www.twilio.com/pt-br/). Você precisará clonar o repositório, após isso setar as Variáveis conforme o Arquivo *application.properties* dentro do repositório, que são elas: <code> ${TWILIO_SID}, ${TWILIO_KEY}, ${TWILIO_PHONE_FROM} e ${TWILIO_PHONE_TO}.</code>
 
 Passo-a-passo:
 
