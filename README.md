@@ -29,5 +29,6 @@ Tudo que você viu aqui é um estagiário que tenta desenvolver algumas coisas e
 
 Obrigado por ter lido até aqui e valeu pela presença!
 
-## ATENÇÃO!! 
+## ATENÇÃO SOBRE ENVIO DE SMS !!!
+ESTÁ CADASTRADO PARA SER ENVIADO PARA O MEU NÚMERO.
 O ENVIO DE SMS PARA UM NOVO NÚMERO AINDA NÃO ESTÁ FUNCIONANDO, CASO EU ADICIONE ESSA FUNÇÃO FUTURAMENTE EU COLOCAREI UM AVISO NO TOPO DO LEIA-ME!!
