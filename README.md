@@ -39,13 +39,14 @@ O ENVIO DE SMS PARA UM NOVO NÚMERO AINDA NÃO ESTÁ FUNCIONANDO, CASO EU ADICIO
 Passo-a-passo:
 
 Botão direito no projeto e navegue até Run As -> Run Configurations.
-![image](https://user-images.githubusercontent.com/92610124/185016269-65cb550b-b3cb-4670-abfc-c8e9e6e1f73c.png).
+![image](https://user-images.githubusercontent.com/92610124/185016269-65cb550b-b3cb-4670-abfc-c8e9e6e1f73c.png)
 
 Abrindo essa tela, vá até Environment.
-![image](https://user-images.githubusercontent.com/92610124/185016390-01f3f29f-4e4d-4590-9d11-04797ec7d6e4.png).
+![image](https://user-images.githubusercontent.com/92610124/185016390-01f3f29f-4e4d-4590-9d11-04797ec7d6e4.png)
 
 E é aqui que você adiciona as Variáveis de Ambiente.
-![image](https://user-images.githubusercontent.com/92610124/185016463-4d58a06b-a911-43ab-af21-0719b9097276.png).
+
+![image](https://user-images.githubusercontent.com/92610124/185016463-4d58a06b-a911-43ab-af21-0719b9097276.png)
 
 (As informações de SID, KEY e PHONE FROM você conseguirá após a criação e autenticação da sua conta na Twilio!).
 
