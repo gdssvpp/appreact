@@ -20,7 +20,8 @@ function SalesCard() {
 
   const [sales, setSales] = useState<Sale[]>([]);
   const [busca, setBusca] = useState('');
-  
+  const lowerBusca = busca.toLowerCase();
+  const vendedoresFiltrados = sales.filter((sales) => sales.sellerName.toLowerCase().includes(lowerBusca));
  
   useEffect(() => {
 
@@ -55,7 +56,7 @@ function SalesCard() {
                 dateFormat="dd/MM/yyyy"
               />
             </div>
-            
+            <input type="text" id="filtro" placeholder="Pesquisa..." value={busca} onChange={(ev) => setBusca(ev.target.value)} />
           </div>
 
           <div>
@@ -72,7 +73,7 @@ function SalesCard() {
                 </tr>
               </thead>
               <tbody>
-                {sales.map((sale) => {
+                {vendedoresFiltrados.map((sale) => {
                   return (
                     <tr key={sale.id}>
                       <td className="show992">{sale.id}</td>
