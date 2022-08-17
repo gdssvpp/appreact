@@ -1,4 +1,4 @@
-Easter Eggs - 
+Easter Eggs - Algo que salvei para que eu possa arrumar futuramente. As datas não estão filtrando os nomes abaixo.
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Rosangela',55,35,20474.0,'2021-07-05');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Alexandre',84,34,5787.0,'2021-07-01');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Pablo',79,68,11976.0,'2021-06-27');
