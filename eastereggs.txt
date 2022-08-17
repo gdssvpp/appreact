@@ -1,0 +1,13 @@
+Easter Eggs - 
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Rosangela',55,35,20474.0,'2021-07-05');
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Alexandre',84,34,5787.0,'2021-07-01');
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Pablo',79,68,11976.0,'2021-06-27');
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Agatha Crivelin',79,68,99999.0,'2021-06-27');
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Francisco',102,52,22086.0,'2021-08-03');
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Fabrício',54,53,15731.0,'2021-07-31');
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Clayton',118,80,5218.0,'2021-08-13');
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Kratos',78,32,12021.0,'2021-08-30');
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Abel',68,21,15541.0,'2021-09-04');
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Kayn',64,47,7287.0,'2021-09-04');
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Equipe Fragmento',54,28,3974.0,'2021-08-28');
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('JTP Solution',153,92,17913.0,'2021-09-04');

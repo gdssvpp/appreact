@@ -92,11 +92,11 @@ INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Logan',22,1
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Logan',19,11,4185.0,'2021-09-05');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Abel',68,21,15541.0,'2021-09-04');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Kayn',64,47,7287.0,'2021-09-04');
-INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Kal-El',153,92,17913.0,'2021-09-04');
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('JTP Solution',153,92,17913.0,'2021-09-04');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Padme',93,53,12648.0,'2021-09-02');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Kratos',78,32,12021.0,'2021-08-30');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Anakin',94,49,18787.0,'2021-08-29');
-INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Logan',54,28,3974.0,'2021-08-28');
+INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Equipe Fragmento',54,28,3974.0,'2021-08-28');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Anakin',45,25,5681.0,'2021-08-26');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Logan',11,1,4008.0,'2021-08-14');
 INSERT INTO tb_sales(seller_name,visited,deals,amount,date) VALUES ('Clayton',118,80,5218.0,'2021-08-13');
