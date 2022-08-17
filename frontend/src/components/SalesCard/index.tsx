@@ -55,7 +55,7 @@ function SalesCard() {
                 dateFormat="dd/MM/yyyy"
               />
             </div>
-            <input type="text" id="filtro" placeholder="Pesquisa..." value={busca} onChange={(ev) => setBusca(ev.target.value)} />
+            
           </div>
 
           <div>
